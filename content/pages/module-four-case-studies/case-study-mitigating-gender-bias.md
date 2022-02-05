@@ -42,7 +42,7 @@ Binary coding was chosen for simplicity, but this decision must be made on a cas
 
 ### Illustrating gender bias
 
-We apply the standard ML approach to the UCI adult dataset. The steps that are followed are 1) splitting the dataset into training and test data, 2) selecting model (MLPClassifier in this case), 3) fitting the model on training data, and 4) using the model to make predictions on test data. For this application, we will define the positive category to mean high income (>$50K/year) and the negative category to mean low income (<=$50K/year).
+We apply the standard ML approach to the UCI adult dataset. The steps that are followed are 1) splitting the dataset into training and test data, 2) selecting model (MLPClassifier in this case), 3) fitting the model on training data, and 4) using the model to make predictions on test data. For this application, we will define the positive category to mean high income (>$50K/year) and the negative category to mean low income (\<=$50K/year).
 
 The model results show that the positive rates and true positive rates are higher for the male demographic. Additionally, the negative rate and true negative rates are higher for the female demographic. This shows consistent disparities in the error rates between the two demographics, which we will define as gender bias.
 
