@@ -8,7 +8,7 @@ uid: 3ee1ee69-1813-a435-6d18-22d90b24e11c
 
 {{< resource ecae2209-dbfe-5a21-8318-e3e9bd69c04b >}}
 
-[Mitigating Gender Bias slides (PDF - 1.6MB)](/resources/res-ec-001-exploring-fairness-in-machine-learning-for-international-development-spring-2020/module-four-case-studies/case-study-mitigating-gender-bias/MITRES_EC001S19_video7.pdf)
+{{% resource_link "c9994001-7c08-59e6-e152-6724dc4759b0" "Mitigating Gender Bias slides (PDF - 1.6MB)" %}}
 
 Learning Objectives
 -------------------
@@ -58,23 +58,23 @@ Augment data with counterfactuals: for each data point Xi with a given gender, w
 
 We see varying accuracy across different approaches on accuracy for the male and female demographics, as shown in the plot below. The counterfactual approach is shown to be the best at reducing gender bias. We see similar behavior for the positive rates and negative rates as well as the true positive and true negative rates.
 
-![Three dot charts comparing accuracy on males vs females](/resources/res-ec-001-exploring-fairness-in-machine-learning-for-international-development-spring-2020/module-four-case-studies/case-study-mitigating-gender-bias/RES-EC-001-gender-1.png)
+{{< resource "159e51c4-364c-f4c7-3ea8-881a502d1412" >}}
 
-![Dot chart comparing true positive & true negative rates across gender](/resources/res-ec-001-exploring-fairness-in-machine-learning-for-international-development-spring-2020/module-four-case-studies/case-study-mitigating-gender-bias/RES-EC-001-gender-2.png)
+{{< resource "84713bc2-11ab-3e2c-2f79-fb97993a87b6" >}}
 
 ### Model-based debiasing techniques
 
 Different ML models show different levels of bias. By changing the model type and architecture, we can observe which ones will be less biased for this application. We examine single and multi-model architectures. The models that will be considered are support vector, random forest, KNN, logistic regression, and MLP classifiers. Multi-model architectures involve training a group of different models that make a final prediction based on consensus. Two approaches can be used for consensus; hard voting, where the final prediction is the majority prediction among the models and soft voting, where the final prediction is the average prediction. The following plots show the differences in overall accuracy and the discrepancies between accuracy across gender.
 
-![Dot chart of all models accuracy across gender](/resources/res-ec-001-exploring-fairness-in-machine-learning-for-international-development-spring-2020/module-four-case-studies/case-study-mitigating-gender-bias/RES-EC-001-gender-3.png)
+{{< resource "8abd93b3-7c78-7982-4349-e621cc27e681" >}}
 
-![Four dot charts of model positive/negative rates](/resources/res-ec-001-exploring-fairness-in-machine-learning-for-international-development-spring-2020/module-four-case-studies/case-study-mitigating-gender-bias/RES-EC-001-gender-4.png)
+{{< resource "de105aa8-e698-9d30-2a1b-3dd4dec919b2" >}}
 
 It is also important to compare the results of the models across multiple training sessions. For each model type, five instances of the model were trained and compared. Results are shown the plot below. We can see that different models have different variability in performance for different metrics of interest.
 
-![Dot chart of accuracy disparity comparison](/resources/res-ec-001-exploring-fairness-in-machine-learning-for-international-development-spring-2020/module-four-case-studies/case-study-mitigating-gender-bias/RES-EC-001-gender-5.png)
+{{< resource "b8caa202-b521-50fc-68d6-70c0d18ee8ae" >}}
 
-![Four dot charts of positive/negative disparity comparisons](/resources/res-ec-001-exploring-fairness-in-machine-learning-for-international-development-spring-2020/module-four-case-studies/case-study-mitigating-gender-bias/RES-EC-001-gender-6.png)
+{{< resource "476c520a-369e-7b57-097b-17393fc150ca" >}}
 
 References
 ----------

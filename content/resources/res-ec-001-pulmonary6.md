@@ -7,6 +7,7 @@ image_metadata:
   caption: ''
   credit: ''
   image-alt: ''
+parent_uid: e927237f-0504-d17b-16db-1e7afce2a68e
 resourcetype: Image
 title: RES-EC-001-pulmonary6.png
 uid: b2814229-3e06-1ad2-fc79-aa3ddbbd33aa
